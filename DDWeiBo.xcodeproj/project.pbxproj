@@ -10,6 +10,10 @@
 		4A85D4B01CDC498D00109B42 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A85D4AF1CDC498D00109B42 /* MainTabBarController.swift */; };
 		4A85D4B21CDC5C2F00109B42 /* UserLoginInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A85D4B11CDC5C2F00109B42 /* UserLoginInfoController.swift */; };
 		4A85D4B41CDC624D00109B42 /* zhangdongdong.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4A85D4B31CDC624D00109B42 /* zhangdongdong.jpeg */; };
+		4A85D4B71CDC875000109B42 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A85D4B61CDC875000109B42 /* HomeController.swift */; };
+		4A85D4B91CDC876B00109B42 /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A85D4B81CDC876B00109B42 /* MessageController.swift */; };
+		4A85D4BB1CDC877C00109B42 /* FoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A85D4BA1CDC877C00109B42 /* FoundController.swift */; };
+		4A85D4BD1CDC878A00109B42 /* MeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A85D4BC1CDC878A00109B42 /* MeController.swift */; };
 		4A9A64651CDC209700BD9518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A64641CDC209700BD9518 /* AppDelegate.swift */; };
 		4A9A646C1CDC209700BD9518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A9A646B1CDC209700BD9518 /* Assets.xcassets */; };
 		4A9A646F1CDC209700BD9518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A9A646D1CDC209700BD9518 /* LaunchScreen.storyboard */; };
@@ -41,6 +45,10 @@
 		4A85D4AF1CDC498D00109B42 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		4A85D4B11CDC5C2F00109B42 /* UserLoginInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoginInfoController.swift; sourceTree = "<group>"; };
 		4A85D4B31CDC624D00109B42 /* zhangdongdong.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhangdongdong.jpeg; sourceTree = "<group>"; };
+		4A85D4B61CDC875000109B42 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		4A85D4B81CDC876B00109B42 /* MessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
+		4A85D4BA1CDC877C00109B42 /* FoundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundController.swift; sourceTree = "<group>"; };
+		4A85D4BC1CDC878A00109B42 /* MeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeController.swift; sourceTree = "<group>"; };
 		4A9A64611CDC209700BD9518 /* DDWeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDWeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9A64641CDC209700BD9518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A9A646B1CDC209700BD9518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,6 +90,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A85D4B51CDC872700109B42 /* 主要(Main) */ = {
+			isa = PBXGroup;
+			children = (
+				4A85D4B61CDC875000109B42 /* HomeController.swift */,
+				4A85D4B81CDC876B00109B42 /* MessageController.swift */,
+				4A85D4BA1CDC877C00109B42 /* FoundController.swift */,
+				4A85D4BC1CDC878A00109B42 /* MeController.swift */,
+			);
+			name = "主要(Main)";
+			sourceTree = "<group>";
+		};
 		4A9A64581CDC209700BD9518 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +124,7 @@
 		4A9A64631CDC209700BD9518 /* DDWeiBo */ = {
 			isa = PBXGroup;
 			children = (
+				4A85D4B51CDC872700109B42 /* 主要(Main) */,
 				4A9A64981CDC254E00BD9518 /* 资源文件 */,
 				4A9A64641CDC209700BD9518 /* AppDelegate.swift */,
 				4A85D4B11CDC5C2F00109B42 /* UserLoginInfoController.swift */,
@@ -278,10 +298,14 @@
 			files = (
 				4A9A64971CDC22D600BD9518 /* MainNavgationController.swift in Sources */,
 				4A9A64951CDC225000BD9518 /* LoginViewController.swift in Sources */,
+				4A85D4B71CDC875000109B42 /* HomeController.swift in Sources */,
+				4A85D4B91CDC876B00109B42 /* MessageController.swift in Sources */,
 				4A85D4B21CDC5C2F00109B42 /* UserLoginInfoController.swift in Sources */,
 				4A85D4B01CDC498D00109B42 /* MainTabBarController.swift in Sources */,
 				4A9A64651CDC209700BD9518 /* AppDelegate.swift in Sources */,
+				4A85D4BB1CDC877C00109B42 /* FoundController.swift in Sources */,
 				4A9A64931CDC21CC00BD9518 /* NewfeaturesController.swift in Sources */,
+				4A85D4BD1CDC878A00109B42 /* MeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

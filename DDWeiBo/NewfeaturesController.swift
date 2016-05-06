@@ -12,7 +12,7 @@ import UIKit
 class NewfeaturesController: UIViewController {
      var  userImgView:UIImageView?
      var  userInfo:UserLoginInfoController?
-      var  welcomeLabel:UILabel?
+     var  welcomeLabel:UILabel?
      let screen_width  = UIScreen.mainScreen().bounds.size.width
      let screen_height  = UIScreen.mainScreen().bounds.size.height
     override  func viewDidLoad() {
@@ -40,7 +40,7 @@ class NewfeaturesController: UIViewController {
             self.userImgView?.alpha = 1
             }) { (Bool) in
                 UIView.animateWithDuration(1.5, delay: 0, options: UIViewAnimationOptions.CurveLinear, animations: {
-                    self.userImgView?.transform  = CGAffineTransformMakeTranslation(0, -100)
+                    self.userImgView?.transform  = CGAffineTransformMakeTranslation(0, -120)
                 }) { (Bool) in
                     UIView.animateWithDuration(0, delay: 0, options: UIViewAnimationOptions.CurveLinear, animations: {
                         self.welcomeLabel = UILabel()
@@ -56,11 +56,11 @@ class NewfeaturesController: UIViewController {
                         UIView.animateWithDuration(1.5, delay: 0, options: UIViewAnimationOptions.CurveLinear, animations: {
                             self.welcomeLabel?.alpha = 1
                         }) { (Bool) in
-                            
+                                     print("动画全部播放完成") //可以进入首页了
                         }
                     }
-                }
-        }
-    }
+                 }
+              }
+          }
 }
 
