@@ -13,3 +13,15 @@
 - **扩展类 **: *尝试封装控件* 便于以后开发的需要
 
 
+附上自己收藏的 *Swift* 学习的资源网站 
+- **国外开源的资源**: ![](http://www.ioscookies.com/)
+- **Swift语言主流学习资源，并以开发者的视角整理编排**: ![](https://github.com/ipader/SwiftGuide/)
+- **Swift 教程**: ![](http://www.runoob.com/swift/swift-tutorial.html/)
+- **Swift 中文教程**: ![](http://wiki.jikexueyuan.com/download/swift/pdf/)
+
+
+###  附上自己的信息   
+- **QQ**: 1353580574
+
+
+
