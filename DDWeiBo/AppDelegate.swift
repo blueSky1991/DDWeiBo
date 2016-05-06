@@ -12,10 +12,23 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    var mainNavgation:MainNavgationController?
+    var mainTabBar:MainTabBarController?
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        self.window = UIWindow()
+        self.window?.frame = UIScreen.mainScreen().bounds
+        self.window?.backgroundColor = UIColor.whiteColor()
+        let   user  = NSUserDefaults.standardUserDefaults()
+        let    isFirstInstall =   user .objectForKey("zhangdongdong")?.boolValue
+        if isFirstInstall == true {//调试阶段，每次先进入到 新特性界面
+            self.window?.rootViewController = NewfeaturesController()
+        }else{//暂时进不去
+           self.window?.rootViewController = MainTabBarController()
+        }
+        user .setBool(true, forKey: "zhangdongdong")
+        user.synchronize()
+        self.window?.makeKeyAndVisible()
         return true
     }
 
