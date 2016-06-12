@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }else{//暂时进不去
            self.window?.rootViewController = MainTabBarController()
         }
-        user .setBool(false, forKey: "zhangdongdong")
+        user .setBool(true, forKey: "zhangdongdong")
         user.synchronize()
         self.window?.makeKeyAndVisible()
         return true

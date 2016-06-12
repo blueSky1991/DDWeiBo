@@ -56,7 +56,10 @@ class NewfeaturesController: UIViewController {
                         UIView.animateWithDuration(1.5, delay: 0, options: UIViewAnimationOptions.CurveLinear, animations: {
                             self.welcomeLabel?.alpha = 1
                         }) { (Bool) in
-                                     print("动画全部播放完成") //可以进入首页了
+                                     print("动画全部播放完成,自动进入首页了") //可以进入首页了
+                            self.presentViewController(MainTabBarController(), animated: true, completion: { 
+                                
+                            })
                         }
                     }
                  }
