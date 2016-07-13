@@ -1,0 +1,22 @@
+ [
+  {
+  "vcName": "HomeController",
+  "title": "首页",
+  "imageName": "tabbar_home"
+  },
+  {
+  "vcName": "MessageController",
+  "title": "消息",
+  "imageName": "tabbar_message_center"
+  },
+  {
+  "vcName": "FoundController",
+  "title": "广场",
+  "imageName": "tabbar_discover"
+  },
+  {
+  "vcName": "MeController",
+  "title": "我",
+  "imageName": "tabbar_profile"
+  }
+  ]
