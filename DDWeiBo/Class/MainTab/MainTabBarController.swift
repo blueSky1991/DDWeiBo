@@ -15,8 +15,23 @@ class MainTabBarController: UITabBarController {
         super.viewDidLoad()
         // 添加子控制器
         addChildControllers()
+        //composeButton 添加在这里的话由于子视图为创建好,所以系统的tabBarItemButton会覆盖在创建的仕途上,点击按钮,视图接收不到事件
+//        tabBar.addSubview(composeButton)
         
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+       // 在视图已经创建好并且将要显示的时候,再添加子视图会覆盖系统的按钮,这样点击按钮视图就可以接收到点击事件
+        tabBar.addSubview(composeButton)
+
+        // composeButton 更改视图的尺寸
+        let rect = composeButton.frame
+        let width = tabBar.bounds.size.width/CGFloat(childViewControllers.count)
+        composeButton.frame = CGRectMake(2*width, 0, width, rect.height)
+        
+    }
+    
     /**
      添加子控制器
      */
@@ -27,13 +42,17 @@ class MainTabBarController: UITabBarController {
             return
         }
         // 转化为data类型
-        let data  = NSData(contentsOfFile: filePath)
+        guard  let data  = NSData(contentsOfFile: filePath) else {
+            DDLog("转化为data类型 ")
+           return
+        }
         
         //转化为字典类型
-        guard let dictArray = try? NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers) else {
+        guard let dictArray = try? NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers) as! [[String: AnyObject]] else {
             tabBar.tintColor = UIColor.orangeColor()
             addChildViewControllers("HomeController", title: "首页", imageName: "tabbar_home")
             addChildViewControllers("MessageController", title: "消息", imageName: "tabbar_message_center")
+            addChildViewControllers("NullViewController", title:"", imageName: "")
             addChildViewControllers("FoundController", title: "发现", imageName: "tabbar_discover")
             addChildViewControllers("MeController", title: "我", imageName: "tabbar_profile")
 
@@ -42,8 +61,8 @@ class MainTabBarController: UITabBarController {
         }
         
         // 在dictArray中遍历字典类型 as! [[String :String]]是将dictArray中的每个对象转化为字典
-        for  dict  in dictArray  as! [[String :String]]{
-            addChildViewControllers(dict["vcName"]!, title: dict["title"]!, imageName: dict["imageName"]!)
+        for  dict  in dictArray  {
+            addChildViewControllers(dict["vcName"]! as! String, title: dict["title"]! as! String, imageName: dict["imageName"]! as! String)
 
         }
     
@@ -51,7 +70,7 @@ class MainTabBarController: UITabBarController {
     /**
      自定义控制器
      
-     - parameter childController: 子控制器
+     - parameter childController: 子控制器字符串
      - parameter title:           名称
      - parameter imageName:       图片
      */
@@ -84,5 +103,30 @@ class MainTabBarController: UITabBarController {
        addChildViewController(navContr)
     }
     
+    
+    /**
+     composeButton点击事件
+     
+     - parameter btn: 被点击的按钮
+     */
+    func composeButtonDidClick(btn:UIButton)  {
+        DDLog("composeButtonDidClick")
+    }
+    
+    
+    
+    // 懒加载
+    lazy var composeButton:UIButton={
+       ()->UIButton
+        in
+        let btn = UIButton()
+        btn.setImage(UIImage.init(named:"tabbar_compose_icon_add" ), forState: UIControlState.Normal)
+        btn.setImage(UIImage.init(named:"tabbar_compose_icon_add_highlighted"), forState: UIControlState.Highlighted)
+        btn.setBackgroundImage(UIImage.init(named: "tabbar_compose_button"), forState: UIControlState.Normal)
+        btn.setBackgroundImage(UIImage.init(named: "tabbar_compose_button_highlighted"), forState: UIControlState.Highlighted)
+        btn.addTarget(self, action: Selector("composeButtonDidClick:"), forControlEvents: UIControlEvents.TouchUpInside)
+        btn.sizeToFit()
+        return btn
+    }()
     
 }

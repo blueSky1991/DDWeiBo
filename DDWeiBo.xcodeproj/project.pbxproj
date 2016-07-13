@@ -18,6 +18,7 @@
 		4A4E57501D35DDFC00789FB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E57451D35DDFC00789FB8 /* AppDelegate.swift */; };
 		4A4E57511D35DDFC00789FB8 /* FoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E57461D35DDFC00789FB8 /* FoundController.swift */; };
 		4A4E57881D3607E800789FB8 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E57861D3607E800789FB8 /* MainVCSettings.json */; };
+		4A4E578B1D3617C500789FB8 /* NullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E578A1D3617C500789FB8 /* NullViewController.swift */; };
 		4A85D4B41CDC624D00109B42 /* zhangdongdong.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4A85D4B31CDC624D00109B42 /* zhangdongdong.jpeg */; };
 		4A9A646C1CDC209700BD9518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A9A646B1CDC209700BD9518 /* Assets.xcassets */; };
 		4A9A646F1CDC209700BD9518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A9A646D1CDC209700BD9518 /* LaunchScreen.storyboard */; };
@@ -56,6 +57,7 @@
 		4A4E57451D35DDFC00789FB8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../Search/AppDelegate.swift; sourceTree = "<group>"; };
 		4A4E57461D35DDFC00789FB8 /* FoundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundController.swift; sourceTree = "<group>"; };
 		4A4E57861D3607E800789FB8 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		4A4E578A1D3617C500789FB8 /* NullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NullViewController.swift; sourceTree = "<group>"; };
 		4A85D4B31CDC624D00109B42 /* zhangdongdong.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhangdongdong.jpeg; sourceTree = "<group>"; };
 		4A9A64611CDC209700BD9518 /* DDWeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDWeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9A646B1CDC209700BD9518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				4A4E57861D3607E800789FB8 /* MainVCSettings.json */,
+				4A4E578A1D3617C500789FB8 /* NullViewController.swift */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -466,6 +469,7 @@
 				4A4E574B1D35DDFC00789FB8 /* MainNavgationController.swift in Sources */,
 				4A4E57491D35DDFC00789FB8 /* LoginViewController.swift in Sources */,
 				4A4E574E1D35DDFC00789FB8 /* MessageController.swift in Sources */,
+				4A4E578B1D3617C500789FB8 /* NullViewController.swift in Sources */,
 				4A4E57501D35DDFC00789FB8 /* AppDelegate.swift in Sources */,
 				4A4E57511D35DDFC00789FB8 /* FoundController.swift in Sources */,
 				4A4E574F1D35DDFC00789FB8 /* NewfeaturesController.swift in Sources */,

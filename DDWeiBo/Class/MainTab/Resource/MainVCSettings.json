@@ -9,6 +9,10 @@
   "title": "消息",
   "imageName": "tabbar_message_center"
   },
+  "vcName": "NullViewController",
+  "title": "",
+  "imageName": ""
+  },
   {
   "vcName": "FoundController",
   "title": "广场",
