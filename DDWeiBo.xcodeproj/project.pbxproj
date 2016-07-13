@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A85D4B01CDC498D00109B42 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A85D4AF1CDC498D00109B42 /* MainTabBarController.swift */; };
-		4A85D4B21CDC5C2F00109B42 /* UserLoginInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A85D4B11CDC5C2F00109B42 /* UserLoginInfoController.swift */; };
+		4A4E57481D35DDFC00789FB8 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E57351D35DDFC00789FB8 /* HomeController.swift */; };
+		4A4E57491D35DDFC00789FB8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E57371D35DDFC00789FB8 /* LoginViewController.swift */; };
+		4A4E574A1D35DDFC00789FB8 /* UserLoginInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E57381D35DDFC00789FB8 /* UserLoginInfoController.swift */; };
+		4A4E574B1D35DDFC00789FB8 /* MainNavgationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E573A1D35DDFC00789FB8 /* MainNavgationController.swift */; };
+		4A4E574C1D35DDFC00789FB8 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E573C1D35DDFC00789FB8 /* MainTabBarController.swift */; };
+		4A4E574D1D35DDFC00789FB8 /* MeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E573E1D35DDFC00789FB8 /* MeController.swift */; };
+		4A4E574E1D35DDFC00789FB8 /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E57411D35DDFC00789FB8 /* MessageController.swift */; };
+		4A4E574F1D35DDFC00789FB8 /* NewfeaturesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E57421D35DDFC00789FB8 /* NewfeaturesController.swift */; };
+		4A4E57501D35DDFC00789FB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E57451D35DDFC00789FB8 /* AppDelegate.swift */; };
+		4A4E57511D35DDFC00789FB8 /* FoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E57461D35DDFC00789FB8 /* FoundController.swift */; };
 		4A85D4B41CDC624D00109B42 /* zhangdongdong.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4A85D4B31CDC624D00109B42 /* zhangdongdong.jpeg */; };
-		4A85D4B71CDC875000109B42 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A85D4B61CDC875000109B42 /* HomeController.swift */; };
-		4A85D4B91CDC876B00109B42 /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A85D4B81CDC876B00109B42 /* MessageController.swift */; };
-		4A85D4BB1CDC877C00109B42 /* FoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A85D4BA1CDC877C00109B42 /* FoundController.swift */; };
-		4A85D4BD1CDC878A00109B42 /* MeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A85D4BC1CDC878A00109B42 /* MeController.swift */; };
-		4A9A64651CDC209700BD9518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A64641CDC209700BD9518 /* AppDelegate.swift */; };
 		4A9A646C1CDC209700BD9518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A9A646B1CDC209700BD9518 /* Assets.xcassets */; };
 		4A9A646F1CDC209700BD9518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A9A646D1CDC209700BD9518 /* LaunchScreen.storyboard */; };
 		4A9A647A1CDC209700BD9518 /* DDWeiBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A64791CDC209700BD9518 /* DDWeiBoTests.swift */; };
 		4A9A64851CDC209700BD9518 /* DDWeiBoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A64841CDC209700BD9518 /* DDWeiBoUITests.swift */; };
-		4A9A64931CDC21CC00BD9518 /* NewfeaturesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A64921CDC21CC00BD9518 /* NewfeaturesController.swift */; };
-		4A9A64951CDC225000BD9518 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A64941CDC225000BD9518 /* LoginViewController.swift */; };
-		4A9A64971CDC22D600BD9518 /* MainNavgationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A64961CDC22D600BD9518 /* MainNavgationController.swift */; };
+		FA37A69DF37E9812D6C8CCC5 /* Pods_DDWeiBo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F74FF669CD818BD7604BEE7 /* Pods_DDWeiBo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,15 +43,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4A85D4AF1CDC498D00109B42 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		4A85D4B11CDC5C2F00109B42 /* UserLoginInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoginInfoController.swift; sourceTree = "<group>"; };
+		1F74FF669CD818BD7604BEE7 /* Pods_DDWeiBo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDWeiBo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A4E57351D35DDFC00789FB8 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		4A4E57371D35DDFC00789FB8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4A4E57381D35DDFC00789FB8 /* UserLoginInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoginInfoController.swift; sourceTree = "<group>"; };
+		4A4E573A1D35DDFC00789FB8 /* MainNavgationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavgationController.swift; sourceTree = "<group>"; };
+		4A4E573C1D35DDFC00789FB8 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		4A4E573E1D35DDFC00789FB8 /* MeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeController.swift; sourceTree = "<group>"; };
+		4A4E57411D35DDFC00789FB8 /* MessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageController.swift; path = ../NewFeatures/MessageController.swift; sourceTree = "<group>"; };
+		4A4E57421D35DDFC00789FB8 /* NewfeaturesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewfeaturesController.swift; sourceTree = "<group>"; };
+		4A4E57451D35DDFC00789FB8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../Search/AppDelegate.swift; sourceTree = "<group>"; };
+		4A4E57461D35DDFC00789FB8 /* FoundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundController.swift; sourceTree = "<group>"; };
 		4A85D4B31CDC624D00109B42 /* zhangdongdong.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhangdongdong.jpeg; sourceTree = "<group>"; };
-		4A85D4B61CDC875000109B42 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
-		4A85D4B81CDC876B00109B42 /* MessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
-		4A85D4BA1CDC877C00109B42 /* FoundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundController.swift; sourceTree = "<group>"; };
-		4A85D4BC1CDC878A00109B42 /* MeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeController.swift; sourceTree = "<group>"; };
 		4A9A64611CDC209700BD9518 /* DDWeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDWeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A9A64641CDC209700BD9518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A9A646B1CDC209700BD9518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A9A646E1CDC209700BD9518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A9A64701CDC209700BD9518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,9 +65,8 @@
 		4A9A64801CDC209700BD9518 /* DDWeiBoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDWeiBoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9A64841CDC209700BD9518 /* DDWeiBoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDWeiBoUITests.swift; sourceTree = "<group>"; };
 		4A9A64861CDC209700BD9518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A9A64921CDC21CC00BD9518 /* NewfeaturesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewfeaturesController.swift; sourceTree = "<group>"; };
-		4A9A64941CDC225000BD9518 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		4A9A64961CDC22D600BD9518 /* MainNavgationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavgationController.swift; sourceTree = "<group>"; };
+		B147C4F6550743F909D38F05 /* Pods-DDWeiBo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDWeiBo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDWeiBo/Pods-DDWeiBo.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB456928ADED43BC2E541F2 /* Pods-DDWeiBo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDWeiBo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDWeiBo/Pods-DDWeiBo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA37A69DF37E9812D6C8CCC5 /* Pods_DDWeiBo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,15 +95,118 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4A85D4B51CDC872700109B42 /* 主要(Main) */ = {
+		0A81484B146DA09E342DE348 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4A85D4B61CDC875000109B42 /* HomeController.swift */,
-				4A85D4B81CDC876B00109B42 /* MessageController.swift */,
-				4A85D4BA1CDC877C00109B42 /* FoundController.swift */,
-				4A85D4BC1CDC878A00109B42 /* MeController.swift */,
+				1F74FF669CD818BD7604BEE7 /* Pods_DDWeiBo.framework */,
 			);
-			name = "主要(Main)";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3323805833FD00A6EA0AE3FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B147C4F6550743F909D38F05 /* Pods-DDWeiBo.debug.xcconfig */,
+				FFB456928ADED43BC2E541F2 /* Pods-DDWeiBo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4A4E57331D35DDFC00789FB8 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				4A4E57341D35DDFC00789FB8 /* Home */,
+				4A4E57361D35DDFC00789FB8 /* login */,
+				4A4E57391D35DDFC00789FB8 /* MainNav */,
+				4A4E573B1D35DDFC00789FB8 /* MainTab */,
+				4A4E573D1D35DDFC00789FB8 /* Me */,
+				4A4E573F1D35DDFC00789FB8 /* Message */,
+				4A4E57401D35DDFC00789FB8 /* NewFeatures */,
+				4A4E57431D35DDFC00789FB8 /* Other */,
+				4A4E57441D35DDFC00789FB8 /* Search */,
+				4A4E57471D35DDFC00789FB8 /* Tools */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		4A4E57341D35DDFC00789FB8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4A4E57351D35DDFC00789FB8 /* HomeController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4A4E57361D35DDFC00789FB8 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				4A4E57371D35DDFC00789FB8 /* LoginViewController.swift */,
+				4A4E57381D35DDFC00789FB8 /* UserLoginInfoController.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		4A4E57391D35DDFC00789FB8 /* MainNav */ = {
+			isa = PBXGroup;
+			children = (
+				4A4E573A1D35DDFC00789FB8 /* MainNavgationController.swift */,
+			);
+			path = MainNav;
+			sourceTree = "<group>";
+		};
+		4A4E573B1D35DDFC00789FB8 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				4A4E573C1D35DDFC00789FB8 /* MainTabBarController.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		4A4E573D1D35DDFC00789FB8 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				4A4E573E1D35DDFC00789FB8 /* MeController.swift */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		4A4E573F1D35DDFC00789FB8 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				4A4E57411D35DDFC00789FB8 /* MessageController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		4A4E57401D35DDFC00789FB8 /* NewFeatures */ = {
+			isa = PBXGroup;
+			children = (
+				4A4E57421D35DDFC00789FB8 /* NewfeaturesController.swift */,
+			);
+			path = NewFeatures;
+			sourceTree = "<group>";
+		};
+		4A4E57431D35DDFC00789FB8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4A4E57451D35DDFC00789FB8 /* AppDelegate.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4A4E57441D35DDFC00789FB8 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				4A4E57461D35DDFC00789FB8 /* FoundController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		4A4E57471D35DDFC00789FB8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		4A9A64581CDC209700BD9518 = {
@@ -108,6 +216,8 @@
 				4A9A64781CDC209700BD9518 /* DDWeiBoTests */,
 				4A9A64831CDC209700BD9518 /* DDWeiBoUITests */,
 				4A9A64621CDC209700BD9518 /* Products */,
+				3323805833FD00A6EA0AE3FF /* Pods */,
+				0A81484B146DA09E342DE348 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,14 +234,8 @@
 		4A9A64631CDC209700BD9518 /* DDWeiBo */ = {
 			isa = PBXGroup;
 			children = (
-				4A85D4B51CDC872700109B42 /* 主要(Main) */,
+				4A4E57331D35DDFC00789FB8 /* Class */,
 				4A9A64981CDC254E00BD9518 /* 资源文件 */,
-				4A9A64641CDC209700BD9518 /* AppDelegate.swift */,
-				4A85D4B11CDC5C2F00109B42 /* UserLoginInfoController.swift */,
-				4A9A64961CDC22D600BD9518 /* MainNavgationController.swift */,
-				4A85D4AF1CDC498D00109B42 /* MainTabBarController.swift */,
-				4A9A64921CDC21CC00BD9518 /* NewfeaturesController.swift */,
-				4A9A64941CDC225000BD9518 /* LoginViewController.swift */,
 				4A9A646B1CDC209700BD9518 /* Assets.xcassets */,
 				4A9A646D1CDC209700BD9518 /* LaunchScreen.storyboard */,
 				4A9A64701CDC209700BD9518 /* Info.plist */,
@@ -172,9 +276,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A9A64891CDC209700BD9518 /* Build configuration list for PBXNativeTarget "DDWeiBo" */;
 			buildPhases = (
+				4C3BA742EAF834E891582F34 /* [CP] Check Pods Manifest.lock */,
 				4A9A645D1CDC209700BD9518 /* Sources */,
 				4A9A645E1CDC209700BD9518 /* Frameworks */,
 				4A9A645F1CDC209700BD9518 /* Resources */,
+				D26635F09E19DAF65D3EB46B /* [CP] Embed Pods Frameworks */,
+				6D4AA7AEF944877E5A006814 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,21 +398,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C3BA742EAF834E891582F34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D4AA7AEF944877E5A006814 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDWeiBo/Pods-DDWeiBo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D26635F09E19DAF65D3EB46B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDWeiBo/Pods-DDWeiBo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A9A645D1CDC209700BD9518 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A9A64971CDC22D600BD9518 /* MainNavgationController.swift in Sources */,
-				4A9A64951CDC225000BD9518 /* LoginViewController.swift in Sources */,
-				4A85D4B71CDC875000109B42 /* HomeController.swift in Sources */,
-				4A85D4B91CDC876B00109B42 /* MessageController.swift in Sources */,
-				4A85D4B21CDC5C2F00109B42 /* UserLoginInfoController.swift in Sources */,
-				4A85D4B01CDC498D00109B42 /* MainTabBarController.swift in Sources */,
-				4A9A64651CDC209700BD9518 /* AppDelegate.swift in Sources */,
-				4A85D4BB1CDC877C00109B42 /* FoundController.swift in Sources */,
-				4A9A64931CDC21CC00BD9518 /* NewfeaturesController.swift in Sources */,
-				4A85D4BD1CDC878A00109B42 /* MeController.swift in Sources */,
+				4A4E574B1D35DDFC00789FB8 /* MainNavgationController.swift in Sources */,
+				4A4E57491D35DDFC00789FB8 /* LoginViewController.swift in Sources */,
+				4A4E574E1D35DDFC00789FB8 /* MessageController.swift in Sources */,
+				4A4E57501D35DDFC00789FB8 /* AppDelegate.swift in Sources */,
+				4A4E57511D35DDFC00789FB8 /* FoundController.swift in Sources */,
+				4A4E574F1D35DDFC00789FB8 /* NewfeaturesController.swift in Sources */,
+				4A4E574C1D35DDFC00789FB8 /* MainTabBarController.swift in Sources */,
+				4A4E574D1D35DDFC00789FB8 /* MeController.swift in Sources */,
+				4A4E57481D35DDFC00789FB8 /* HomeController.swift in Sources */,
+				4A4E574A1D35DDFC00789FB8 /* UserLoginInfoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,10 +594,14 @@
 		};
 		4A9A648A1CDC209700BD9518 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B147C4F6550743F909D38F05 /* Pods-DDWeiBo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = DDWeiBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangdongdong.DDWeiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -450,9 +609,12 @@
 		};
 		4A9A648B1CDC209700BD9518 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFB456928ADED43BC2E541F2 /* Pods-DDWeiBo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = DDWeiBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangdongdong.DDWeiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
