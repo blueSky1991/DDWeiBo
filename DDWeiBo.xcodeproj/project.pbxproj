@@ -20,11 +20,20 @@
 		4A4E57881D3607E800789FB8 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E57861D3607E800789FB8 /* MainVCSettings.json */; };
 		4A4E578B1D3617C500789FB8 /* NullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E578A1D3617C500789FB8 /* NullViewController.swift */; };
 		4A4E578D1D3637CF00789FB8 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E578C1D3637CF00789FB8 /* UIButton+Extension.swift */; };
+		4A7D4CD21D387D9600E8D7EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7D4CD11D387D9600E8D7EE /* Main.storyboard */; };
 		4A85D4B41CDC624D00109B42 /* zhangdongdong.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4A85D4B31CDC624D00109B42 /* zhangdongdong.jpeg */; };
 		4A9A646C1CDC209700BD9518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A9A646B1CDC209700BD9518 /* Assets.xcassets */; };
 		4A9A646F1CDC209700BD9518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A9A646D1CDC209700BD9518 /* LaunchScreen.storyboard */; };
 		4A9A647A1CDC209700BD9518 /* DDWeiBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A64791CDC209700BD9518 /* DDWeiBoTests.swift */; };
 		4A9A64851CDC209700BD9518 /* DDWeiBoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A64841CDC209700BD9518 /* DDWeiBoUITests.swift */; };
+		4AB923591D3C66C900C29A03 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB923581D3C66C900C29A03 /* Home.storyboard */; };
+		4AB9235B1D3C66E100C29A03 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB9235A1D3C66E100C29A03 /* Message.storyboard */; };
+		4AB9235D1D3C670700C29A03 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB9235C1D3C670700C29A03 /* Search.storyboard */; };
+		4AB9235F1D3C671500C29A03 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB9235E1D3C671500C29A03 /* Me.storyboard */; };
+		4AB923631D3C6C9800C29A03 /* NullView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB923621D3C6C9800C29A03 /* NullView.storyboard */; };
+		4AB9236B1D3C763100C29A03 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB923691D3C763100C29A03 /* BaseTableViewController.swift */; };
+		4AB923701D3C76ED00C29A03 /* VisitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB9236E1D3C76ED00C29A03 /* VisitorViewController.swift */; };
+		4AB923751D3C7B0300C29A03 /* VisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AB923741D3C7B0300C29A03 /* VisitorView.xib */; };
 		FA37A69DF37E9812D6C8CCC5 /* Pods_DDWeiBo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F74FF669CD818BD7604BEE7 /* Pods_DDWeiBo.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +69,7 @@
 		4A4E57861D3607E800789FB8 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
 		4A4E578A1D3617C500789FB8 /* NullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NullViewController.swift; sourceTree = "<group>"; };
 		4A4E578C1D3637CF00789FB8 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		4A7D4CD11D387D9600E8D7EE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../Main.storyboard; sourceTree = "<group>"; };
 		4A85D4B31CDC624D00109B42 /* zhangdongdong.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhangdongdong.jpeg; sourceTree = "<group>"; };
 		4A9A64611CDC209700BD9518 /* DDWeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDWeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9A646B1CDC209700BD9518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,6 +81,14 @@
 		4A9A64801CDC209700BD9518 /* DDWeiBoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDWeiBoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9A64841CDC209700BD9518 /* DDWeiBoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDWeiBoUITests.swift; sourceTree = "<group>"; };
 		4A9A64861CDC209700BD9518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AB923581D3C66C900C29A03 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = ../../Home.storyboard; sourceTree = "<group>"; };
+		4AB9235A1D3C66E100C29A03 /* Message.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Message.storyboard; path = ../../Message.storyboard; sourceTree = "<group>"; };
+		4AB9235C1D3C670700C29A03 /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Search.storyboard; path = ../../Search.storyboard; sourceTree = "<group>"; };
+		4AB9235E1D3C671500C29A03 /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Me.storyboard; path = ../../Me.storyboard; sourceTree = "<group>"; };
+		4AB923621D3C6C9800C29A03 /* NullView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = NullView.storyboard; path = DDWeiBo/NullView.storyboard; sourceTree = SOURCE_ROOT; };
+		4AB923691D3C763100C29A03 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		4AB9236E1D3C76ED00C29A03 /* VisitorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorViewController.swift; sourceTree = "<group>"; };
+		4AB923741D3C7B0300C29A03 /* VisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitorView.xib; sourceTree = "<group>"; };
 		B147C4F6550743F909D38F05 /* Pods-DDWeiBo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDWeiBo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDWeiBo/Pods-DDWeiBo.debug.xcconfig"; sourceTree = "<group>"; };
 		FFB456928ADED43BC2E541F2 /* Pods-DDWeiBo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDWeiBo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDWeiBo/Pods-DDWeiBo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,6 +139,8 @@
 		4A4E57331D35DDFC00789FB8 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				4AB9236D1D3C76A500C29A03 /* Vistor */,
+				4AB923641D3C75A700C29A03 /* BaseView */,
 				4A4E57341D35DDFC00789FB8 /* Home */,
 				4A4E57361D35DDFC00789FB8 /* login */,
 				4A4E57391D35DDFC00789FB8 /* MainNav */,
@@ -138,6 +158,7 @@
 		4A4E57341D35DDFC00789FB8 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				4AB923581D3C66C900C29A03 /* Home.storyboard */,
 				4A4E57351D35DDFC00789FB8 /* HomeController.swift */,
 			);
 			path = Home;
@@ -165,6 +186,7 @@
 			children = (
 				4A4E57851D3607E800789FB8 /* Resource */,
 				4A4E573C1D35DDFC00789FB8 /* MainTabBarController.swift */,
+				4A7D4CD11D387D9600E8D7EE /* Main.storyboard */,
 			);
 			path = MainTab;
 			sourceTree = "<group>";
@@ -172,6 +194,7 @@
 		4A4E573D1D35DDFC00789FB8 /* Me */ = {
 			isa = PBXGroup;
 			children = (
+				4AB9235E1D3C671500C29A03 /* Me.storyboard */,
 				4A4E573E1D35DDFC00789FB8 /* MeController.swift */,
 			);
 			path = Me;
@@ -180,6 +203,7 @@
 		4A4E573F1D35DDFC00789FB8 /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				4AB9235A1D3C66E100C29A03 /* Message.storyboard */,
 				4A4E57411D35DDFC00789FB8 /* MessageController.swift */,
 			);
 			path = Message;
@@ -204,6 +228,7 @@
 		4A4E57441D35DDFC00789FB8 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				4AB9235C1D3C670700C29A03 /* Search.storyboard */,
 				4A4E57461D35DDFC00789FB8 /* FoundController.swift */,
 			);
 			path = Search;
@@ -222,6 +247,7 @@
 			children = (
 				4A4E57861D3607E800789FB8 /* MainVCSettings.json */,
 				4A4E578A1D3617C500789FB8 /* NullViewController.swift */,
+				4AB923621D3C6C9800C29A03 /* NullView.storyboard */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -284,6 +310,23 @@
 				4A85D4B31CDC624D00109B42 /* zhangdongdong.jpeg */,
 			);
 			name = "资源文件";
+			sourceTree = "<group>";
+		};
+		4AB923641D3C75A700C29A03 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				4AB923691D3C763100C29A03 /* BaseTableViewController.swift */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		4AB9236D1D3C76A500C29A03 /* Vistor */ = {
+			isa = PBXGroup;
+			children = (
+				4AB9236E1D3C76ED00C29A03 /* VisitorViewController.swift */,
+				4AB923741D3C7B0300C29A03 /* VisitorView.xib */,
+			);
+			path = Vistor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,9 +437,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A85D4B41CDC624D00109B42 /* zhangdongdong.jpeg in Resources */,
+				4A7D4CD21D387D9600E8D7EE /* Main.storyboard in Resources */,
 				4A9A646F1CDC209700BD9518 /* LaunchScreen.storyboard in Resources */,
+				4AB923591D3C66C900C29A03 /* Home.storyboard in Resources */,
+				4AB923631D3C6C9800C29A03 /* NullView.storyboard in Resources */,
 				4A4E57881D3607E800789FB8 /* MainVCSettings.json in Resources */,
+				4AB9235F1D3C671500C29A03 /* Me.storyboard in Resources */,
 				4A9A646C1CDC209700BD9518 /* Assets.xcassets in Resources */,
+				4AB9235D1D3C670700C29A03 /* Search.storyboard in Resources */,
+				4AB9235B1D3C66E100C29A03 /* Message.storyboard in Resources */,
+				4AB923751D3C7B0300C29A03 /* VisitorView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +521,7 @@
 			files = (
 				4A4E574B1D35DDFC00789FB8 /* MainNavgationController.swift in Sources */,
 				4A4E57491D35DDFC00789FB8 /* LoginViewController.swift in Sources */,
+				4AB9236B1D3C763100C29A03 /* BaseTableViewController.swift in Sources */,
 				4A4E574E1D35DDFC00789FB8 /* MessageController.swift in Sources */,
 				4A4E578B1D3617C500789FB8 /* NullViewController.swift in Sources */,
 				4A4E57501D35DDFC00789FB8 /* AppDelegate.swift in Sources */,
@@ -481,6 +532,7 @@
 				4A4E574D1D35DDFC00789FB8 /* MeController.swift in Sources */,
 				4A4E57481D35DDFC00789FB8 /* HomeController.swift in Sources */,
 				4A4E574A1D35DDFC00789FB8 /* UserLoginInfoController.swift in Sources */,
+				4AB923701D3C76ED00C29A03 /* VisitorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

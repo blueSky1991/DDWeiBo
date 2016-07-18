@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NullViewController: UITableViewController {
+class NullViewController: BaseTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
