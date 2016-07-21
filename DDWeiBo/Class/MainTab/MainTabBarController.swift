@@ -18,6 +18,7 @@ class MainTabBarController: UITabBarController {
         //composeButton 添加在这里的话由于子视图为创建好,所以系统的tabBarItemButton会覆盖在创建的仕途上,点击按钮,视图接收不到事件
 //        tabBar.addSubview(composeButton)
         
+        
     }
     
     override func viewWillAppear(animated: Bool) {

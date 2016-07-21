@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="KDp-LY-AVH">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="cNL-fH-XyM">
+            <objects>
+                <viewController id="KDp-LY-AVH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bEc-yC-xsD"/>
+                        <viewControllerLayoutGuide type="bottom" id="NbV-0m-Lhr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JTM-X8-rHN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="g9t-Po-uRi">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="g9t-Po-uRi" secondAttribute="trailing" constant="-20" id="Izq-uK-AAf"/>
+                            <constraint firstItem="g9t-Po-uRi" firstAttribute="leading" secondItem="JTM-X8-rHN" secondAttribute="leadingMargin" constant="-20" id="ePK-6I-RuH"/>
+                            <constraint firstItem="g9t-Po-uRi" firstAttribute="leading" secondItem="JTM-X8-rHN" secondAttribute="leadingMargin" constant="-20" id="frN-pA-bjY"/>
+                            <constraint firstItem="g9t-Po-uRi" firstAttribute="trailing" secondItem="JTM-X8-rHN" secondAttribute="trailingMargin" constant="20" id="hCL-Pb-U0l"/>
+                            <constraint firstItem="NbV-0m-Lhr" firstAttribute="top" secondItem="g9t-Po-uRi" secondAttribute="bottom" id="vLa-iY-GdC"/>
+                            <constraint firstItem="g9t-Po-uRi" firstAttribute="top" secondItem="JTM-X8-rHN" secondAttribute="topMargin" id="xcl-fL-UfC"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fby-qw-Xvy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="148" y="274"/>
+        </scene>
+    </scenes>
+</document>

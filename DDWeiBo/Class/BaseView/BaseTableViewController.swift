@@ -10,7 +10,7 @@ import UIKit
 
 class BaseTableViewController: UITableViewController {
     
-    var isLogin = false
+    var isLogin = true
     
     var Visitor:VisitorViewController!
     
@@ -21,9 +21,9 @@ class BaseTableViewController: UITableViewController {
     //MARK: -- 未登录时候的动画
         private    func setUpVisitorView() {
              self.Visitor = VisitorViewController()
-             view  = self.Visitor.visitorView()
-//            self.Visitor.setupStartInfo("", desc: "测试文字")
-            
+             self.Visitor  = self.Visitor.visitorView()
+            view = self.Visitor
+            self.Visitor.setupStartInfo("", desc: "descname")
     }
     
 }

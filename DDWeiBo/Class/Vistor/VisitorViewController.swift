@@ -21,24 +21,18 @@ class VisitorViewController: UIView {
     
     /** 设置图标和详情文字    */
     func setupStartInfo (imageName:String , desc:String)  {
-//        self.desc.text = desc
-//        
-//        
-//        self.icon.image = UIImage.init(named: imageName)
         
-        
-        
-        
+        self.desc.text = desc
+        self.icon.image = UIImage.init(named: imageName)
         startAnimation()
     }
     /** 开启动画 */
     func startAnimation ()  {
         
         let  animation = CABasicAnimation(keyPath:"transform.rotation")
-        animation.fromValue = 0
         animation.toValue = 2*M_PI
         animation.repeatCount = MAXFLOAT
-        animation.repeatDuration = 2.0
+        animation.repeatDuration = 5.0
         animation.removedOnCompletion = false
         self.turntable.layer.addAnimation(animation, forKey: nil)
         

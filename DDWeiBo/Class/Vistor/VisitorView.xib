@@ -19,7 +19,7 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="visitordiscover_feed_image_house" translatesAutoresizingMaskIntoConstraints="NO" id="O3Q-VN-zYr" userLabel="图标">
                     <rect key="frame" x="253" y="275" width="94" height="90"/>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabe" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IC0-JU-4Pp" userLabel="文本">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabe" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IC0-JU-4Pp" userLabel="文本">
                     <rect key="frame" x="190" y="408" width="220" height="61"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="220" id="Fkt-3U-DTr"/>
@@ -66,7 +66,7 @@
                 <outlet property="desc" destination="IC0-JU-4Pp" id="2B7-D9-rT5"/>
                 <outlet property="icon" destination="O3Q-VN-zYr" id="7az-xD-MBD"/>
                 <outlet property="login" destination="lTA-jC-p0s" id="HrS-fx-lZI"/>
-                <outlet property="register" destination="jL7-26-FtY" id="Cum-ka-SRJ"/>
+                <outlet property="register" destination="jL7-26-FtY" id="Jdh-mf-2Wp"/>
                 <outlet property="turntable" destination="Q6j-Ci-zpG" id="2gf-Al-WWa"/>
             </connections>
         </view>
