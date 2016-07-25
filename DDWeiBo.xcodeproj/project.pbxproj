@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1152361D41F383000C84DF /* QRcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1152341D41F383000C84DF /* QRcodeViewController.swift */; };
+		4A11BA111D41EF250022E57A /* PoperverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A11BA101D41EF250022E57A /* PoperverViewController.swift */; };
+		4A21C6E71D45B92800848B32 /* QRCode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A21C6E61D45B92800848B32 /* QRCode.storyboard */; };
 		4A4E57481D35DDFC00789FB8 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E57351D35DDFC00789FB8 /* HomeController.swift */; };
 		4A4E57491D35DDFC00789FB8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E57371D35DDFC00789FB8 /* LoginViewController.swift */; };
 		4A4E574A1D35DDFC00789FB8 /* UserLoginInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E57381D35DDFC00789FB8 /* UserLoginInfoController.swift */; };
@@ -60,6 +63,9 @@
 
 /* Begin PBXFileReference section */
 		1F74FF669CD818BD7604BEE7 /* Pods_DDWeiBo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDWeiBo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1152341D41F383000C84DF /* QRcodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRcodeViewController.swift; sourceTree = "<group>"; };
+		4A11BA101D41EF250022E57A /* PoperverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoperverViewController.swift; sourceTree = "<group>"; };
+		4A21C6E61D45B92800848B32 /* QRCode.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QRCode.storyboard; sourceTree = "<group>"; };
 		4A4E57351D35DDFC00789FB8 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		4A4E57371D35DDFC00789FB8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4A4E57381D35DDFC00789FB8 /* UserLoginInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoginInfoController.swift; sourceTree = "<group>"; };
@@ -144,6 +150,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		4A1152331D41F34E000C84DF /* QRcode */ = {
+			isa = PBXGroup;
+			children = (
+				4A1152341D41F383000C84DF /* QRcodeViewController.swift */,
+				4A21C6E61D45B92800848B32 /* QRCode.storyboard */,
+			);
+			path = QRcode;
+			sourceTree = "<group>";
+		};
 		4A4E57331D35DDFC00789FB8 /* Class */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +181,7 @@
 		4A4E57341D35DDFC00789FB8 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				4A1152331D41F34E000C84DF /* QRcode */,
 				4A9029D71D40AFCD0057C5DE /* popView */,
 				4AB923581D3C66C900C29A03 /* Home.storyboard */,
 				4A4E57351D35DDFC00789FB8 /* HomeController.swift */,
@@ -267,6 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				4A9029D81D40B0000057C5DE /* popView.storyboard */,
+				4A11BA101D41EF250022E57A /* PoperverViewController.swift */,
 				4A9029DA1D40B2D10057C5DE /* popView.swift */,
 			);
 			path = popView;
@@ -420,6 +437,7 @@
 				TargetAttributes = {
 					4A9A64601CDC209700BD9518 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = BQ7F5XB2U3;
 					};
 					4A9A64741CDC209700BD9518 = {
 						CreatedOnToolsVersion = 7.3;
@@ -460,6 +478,7 @@
 				4A7D4CD21D387D9600E8D7EE /* Main.storyboard in Resources */,
 				4A9A646F1CDC209700BD9518 /* LaunchScreen.storyboard in Resources */,
 				4AB923591D3C66C900C29A03 /* Home.storyboard in Resources */,
+				4A21C6E71D45B92800848B32 /* QRCode.storyboard in Resources */,
 				4AB923631D3C6C9800C29A03 /* NullView.storyboard in Resources */,
 				4A4E57881D3607E800789FB8 /* MainVCSettings.json in Resources */,
 				4AB9235F1D3C671500C29A03 /* Me.storyboard in Resources */,
@@ -557,6 +576,8 @@
 				4A4E57481D35DDFC00789FB8 /* HomeController.swift in Sources */,
 				4A4E574A1D35DDFC00789FB8 /* UserLoginInfoController.swift in Sources */,
 				4AB923701D3C76ED00C29A03 /* VisitorViewController.swift in Sources */,
+				4A1152361D41F383000C84DF /* QRcodeViewController.swift in Sources */,
+				4A11BA111D41EF250022E57A /* PoperverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -694,6 +715,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DDWeiBo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -709,6 +731,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DDWeiBo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -14,9 +14,27 @@ class popView: UIPresentationController {
         super.init(presentedViewController:presentedViewController,presentingViewController:presentingViewController)
         
     }
-
     override func containerViewWillLayoutSubviews() {
         presentedView()?.frame = CGRectMake(100, 45, 200, 200)
+        
+        containerView?.insertSubview(coverButton, atIndex: 0)
+        coverButton.addTarget(self, action: #selector(coverButtonClick), forControlEvents: UIControlEvents.TouchUpInside)
+        
     }
+    
+      func coverButtonClick()  {
+        DDLog(coverButtonClick)
+        presentedViewController.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    
+     lazy   var coverButton : UIButton =  {
+       () -> UIButton
+        in
+        let btn = UIButton()
+        btn.frame = UIScreen.mainScreen().bounds
+        btn.backgroundColor = UIColor.clearColor()
+        return btn
+    }()
     
 }
