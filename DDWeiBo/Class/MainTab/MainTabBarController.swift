@@ -121,11 +121,6 @@ class MainTabBarController: UITabBarController {
        ()->UIButton
         in
         let btn = UIButton(imageName:"tabbar_compose_icon_add", backgroundimageName: "tabbar_compose_button")
-//        btn.setImage(UIImage.init(named:"tabbar_compose_icon_add" ), forState: UIControlState.Normal)
-//        btn.setImage(UIImage.init(named:"tabbar_compose_icon_add_highlighted"), forState: UIControlState.Highlighted)
-//        btn.setBackgroundImage(UIImage.init(named: "tabbar_compose_button"), forState: UIControlState.Normal)
-//        btn.setBackgroundImage(UIImage.init(named: "tabbar_compose_button_highlighted"), forState: UIControlState.Highlighted)
-//        btn.sizeToFit()
         btn.addTarget(self, action: #selector(MainTabBarController.composeButtonDidClick(_:)), forControlEvents: UIControlEvents.TouchUpInside)
         
         return btn

@@ -19,13 +19,22 @@ class VisitorViewController: UIView {
     
     @IBOutlet weak var turntable: UIImageView!
     
-    /** 设置图标和详情文字    */
+      /** 设置图标和详情文字    */
     func setupStartInfo (imageName:String , desc:String)  {
         
         self.desc.text = desc
         self.icon.image = UIImage.init(named: imageName)
         startAnimation()
     }
+    //注册按钮的点击事件
+    @IBAction func registClick() {
+        
+    }
+  // 登录按钮的点击事件
+    @IBAction func loginClick() {
+        
+    }
+
     /** 开启动画 */
     func startAnimation ()  {
         

@@ -10,6 +10,9 @@ import UIKit
 import AVFoundation
 
 class QRcodeViewController: UIViewController {
+    // 容器视图
+    @IBOutlet weak var customContainerView: UIView!
+    
     // 冲击波视图的顶部约束
     @IBOutlet weak var shockWave: NSLayoutConstraint!
     
@@ -42,6 +45,9 @@ class QRcodeViewController: UIViewController {
         super.viewWillAppear(animated)
         startAnimation()
     }
+    
+    
+    
 
     //MARK:- 二维码扫描
     func QRcodeScan()  {
@@ -90,13 +96,36 @@ class QRcodeViewController: UIViewController {
         
     }
     
+    // 生成自己的二维码的
+    @IBAction func createMyQRcode(sender: AnyObject) {
+        self.navigationController?.pushViewController(QRcreateViewController(), animated: true)
+
+    }
     
+    // 导航栏左侧关闭按钮
     @IBAction func dismissClick(sender: AnyObject) {
         
         dismissViewControllerAnimated(true, completion: nil)
     }
+    // 导航栏右侧相册按钮
     @IBAction func photoClick(sender: AnyObject) {
-     DDLog(photoClick)
+     
+        /**
+         TypePhotoLibrary, 相册库
+         TypeCamera, 相机
+         TypeSavedPhotosAlbum 图片库
+         */
+        
+        //0. 先判断是否能打开相册
+          if !UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.PhotoLibrary) {
+        return
+        }
+        // 1  创建并弹出相册的控制器
+        let imagePicker = UIImagePickerController()
+        imagePicker.delegate = self
+        
+        presentViewController(imagePicker, animated: true, completion: nil)
+        
     }
     
     //MARK:-懒加载
@@ -109,8 +138,20 @@ class QRcodeViewController: UIViewController {
     private var  session:AVCaptureSession = AVCaptureSession()
     
     //输出对象
-    private var output:AVCaptureMetadataOutput =  AVCaptureMetadataOutput()
+    private lazy var output:AVCaptureMetadataOutput = {
     
+        let out = AVCaptureMetadataOutput()
+        
+//        let viewRect = self.view.frame
+//        let containRect = self.customContainerView.frame
+//        let x = containRect.origin.y/viewRect.height
+//        let y = containRect.origin.x/viewRect.width
+//        let with = containRect.height/viewRect.height
+//        let height = containRect.width/viewRect.width
+//        out.rectOfInterest = CGRect(x:x,y:y,width:with,height:height)
+        
+    return out
+    }()
     //建立预览层
    private lazy var previewLayer: AVCaptureVideoPreviewLayer = AVCaptureVideoPreviewLayer(session: self.session)
     
@@ -119,6 +160,44 @@ class QRcodeViewController: UIViewController {
     private lazy var containerLayer:CALayer = CALayer()
     
 }
+//MARK:-UIImagePickerControllerDelegate
+
+extension QRcodeViewController:UIImagePickerControllerDelegate,UINavigationControllerDelegate{
+    // 打开相册
+    func  imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]){
+    
+        DDLog(info)
+        // 得到选中的图片否则返回
+        guard let image = info[UIImagePickerControllerOriginalImage] as? UIImage else {
+            return
+        }
+        
+        guard let ciimage = CIImage(image:image) else {
+        
+        return
+        }
+        
+        // 创建探测器
+        let detector = CIDetector(ofType: CIDetectorTypeQRCode,context: nil,options:[CIDetectorAccuracy: CIDetectorAccuracyLow])
+        
+        // 利用探测器探取数据
+     let results =  detector.featuresInImage(ciimage)
+        
+        // 取出数据
+        for result in results {
+            
+            DDLog((result as! CIQRCodeFeature).messageString)
+            
+        }
+        
+        // 关闭相册,一旦此方法被实现的话,当选中图片的时候系统不会关闭相册
+        
+        picker.dismissViewControllerAnimated(true, completion: nil)
+        
+    }
+
+}
+
 
 //MARK:-UITabBarDelegate
 extension QRcodeViewController:AVCaptureMetadataOutputObjectsDelegate{
@@ -176,6 +255,7 @@ extension QRcodeViewController:AVCaptureMetadataOutputObjectsDelegate{
              path.addLineToPoint(point)
         }
         
+        
         //5 . 闭合曲线
         path.closePath()
         
@@ -207,7 +287,7 @@ extension QRcodeViewController:UITabBarDelegate{
     
     func tabBar(tabBar: UITabBar, didSelectItem item: UITabBarItem){
     DDLog(item.tag)
-        self.containerHeight.constant = (item.tag == 1) ? 300 : 150
+        self.containerHeight.constant = (item.tag == 1) ? 200 : 100
         view.layoutIfNeeded()
         qrcodeView.layer.removeAllAnimations()
         startAnimation()

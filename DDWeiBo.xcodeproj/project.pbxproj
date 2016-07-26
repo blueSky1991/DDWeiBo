@@ -10,6 +10,7 @@
 		4A1152361D41F383000C84DF /* QRcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1152341D41F383000C84DF /* QRcodeViewController.swift */; };
 		4A11BA111D41EF250022E57A /* PoperverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A11BA101D41EF250022E57A /* PoperverViewController.swift */; };
 		4A21C6E71D45B92800848B32 /* QRCode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A21C6E61D45B92800848B32 /* QRCode.storyboard */; };
+		4A21C6E91D46145D00848B32 /* QRcreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A21C6E81D46145D00848B32 /* QRcreateViewController.swift */; };
 		4A4E57481D35DDFC00789FB8 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E57351D35DDFC00789FB8 /* HomeController.swift */; };
 		4A4E57491D35DDFC00789FB8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E57371D35DDFC00789FB8 /* LoginViewController.swift */; };
 		4A4E574A1D35DDFC00789FB8 /* UserLoginInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E57381D35DDFC00789FB8 /* UserLoginInfoController.swift */; };
@@ -23,7 +24,13 @@
 		4A4E57881D3607E800789FB8 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E57861D3607E800789FB8 /* MainVCSettings.json */; };
 		4A4E578B1D3617C500789FB8 /* NullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E578A1D3617C500789FB8 /* NullViewController.swift */; };
 		4A4E578D1D3637CF00789FB8 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E578C1D3637CF00789FB8 /* UIButton+Extension.swift */; };
+		4A6038F51D46F4C500BF0258 /* OAuth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A6038F41D46F4C500BF0258 /* OAuth.storyboard */; };
+		4A6038F71D46F4D800BF0258 /* OAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6038F61D46F4D800BF0258 /* OAuthViewController.swift */; };
 		4A7D4CD21D387D9600E8D7EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7D4CD11D387D9600E8D7EE /* Main.storyboard */; };
+		4A8221B11D46FE4D00DC28D7 /* comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8221B01D46FE4D00DC28D7 /* comment.swift */; };
+		4A8221B31D470A7B00DC28D7 /* NetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8221B21D470A7B00DC28D7 /* NetWorkTools.swift */; };
+		4A8221B51D471C9300DC28D7 /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8221B41D471C9300DC28D7 /* UserAccount.swift */; };
+		4A8221B71D47294900DC28D7 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8221B61D47294900DC28D7 /* String+Extension.swift */; };
 		4A85D4B41CDC624D00109B42 /* zhangdongdong.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4A85D4B31CDC624D00109B42 /* zhangdongdong.jpeg */; };
 		4A9029D41D4078070057C5DE /* UIButtonBarItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9029D31D4078070057C5DE /* UIButtonBarItem+Extension.swift */; };
 		4A9029D61D40A6890057C5DE /* TitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9029D51D40A6890057C5DE /* TitleButton.swift */; };
@@ -66,6 +73,7 @@
 		4A1152341D41F383000C84DF /* QRcodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRcodeViewController.swift; sourceTree = "<group>"; };
 		4A11BA101D41EF250022E57A /* PoperverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoperverViewController.swift; sourceTree = "<group>"; };
 		4A21C6E61D45B92800848B32 /* QRCode.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QRCode.storyboard; sourceTree = "<group>"; };
+		4A21C6E81D46145D00848B32 /* QRcreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRcreateViewController.swift; sourceTree = "<group>"; };
 		4A4E57351D35DDFC00789FB8 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		4A4E57371D35DDFC00789FB8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4A4E57381D35DDFC00789FB8 /* UserLoginInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoginInfoController.swift; sourceTree = "<group>"; };
@@ -79,7 +87,13 @@
 		4A4E57861D3607E800789FB8 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
 		4A4E578A1D3617C500789FB8 /* NullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NullViewController.swift; sourceTree = "<group>"; };
 		4A4E578C1D3637CF00789FB8 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		4A6038F41D46F4C500BF0258 /* OAuth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OAuth.storyboard; sourceTree = "<group>"; };
+		4A6038F61D46F4D800BF0258 /* OAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthViewController.swift; sourceTree = "<group>"; };
 		4A7D4CD11D387D9600E8D7EE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../Main.storyboard; sourceTree = "<group>"; };
+		4A8221B01D46FE4D00DC28D7 /* comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = comment.swift; sourceTree = "<group>"; };
+		4A8221B21D470A7B00DC28D7 /* NetWorkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkTools.swift; sourceTree = "<group>"; };
+		4A8221B41D471C9300DC28D7 /* UserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
+		4A8221B61D47294900DC28D7 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		4A85D4B31CDC624D00109B42 /* zhangdongdong.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhangdongdong.jpeg; sourceTree = "<group>"; };
 		4A9029D31D4078070057C5DE /* UIButtonBarItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButtonBarItem+Extension.swift"; sourceTree = "<group>"; };
 		4A9029D51D40A6890057C5DE /* TitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleButton.swift; sourceTree = "<group>"; };
@@ -154,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				4A1152341D41F383000C84DF /* QRcodeViewController.swift */,
+				4A21C6E81D46145D00848B32 /* QRcreateViewController.swift */,
 				4A21C6E61D45B92800848B32 /* QRCode.storyboard */,
 			);
 			path = QRcode;
@@ -162,6 +177,7 @@
 		4A4E57331D35DDFC00789FB8 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				4A6038F31D46F49C00BF0258 /* OAuth */,
 				4AB9236D1D3C76A500C29A03 /* Vistor */,
 				4AB923641D3C75A700C29A03 /* BaseView */,
 				4A4E57341D35DDFC00789FB8 /* Home */,
@@ -265,6 +281,9 @@
 				4A4E578C1D3637CF00789FB8 /* UIButton+Extension.swift */,
 				4A9029D31D4078070057C5DE /* UIButtonBarItem+Extension.swift */,
 				4A9029D51D40A6890057C5DE /* TitleButton.swift */,
+				4A8221B01D46FE4D00DC28D7 /* comment.swift */,
+				4A8221B21D470A7B00DC28D7 /* NetWorkTools.swift */,
+				4A8221B61D47294900DC28D7 /* String+Extension.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -277,6 +296,16 @@
 				4AB923621D3C6C9800C29A03 /* NullView.storyboard */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		4A6038F31D46F49C00BF0258 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				4A6038F41D46F4C500BF0258 /* OAuth.storyboard */,
+				4A6038F61D46F4D800BF0258 /* OAuthViewController.swift */,
+				4A8221B41D471C9300DC28D7 /* UserAccount.swift */,
+			);
+			path = OAuth;
 			sourceTree = "<group>";
 		};
 		4A9029D71D40AFCD0057C5DE /* popView */ = {
@@ -482,6 +511,7 @@
 				4AB923631D3C6C9800C29A03 /* NullView.storyboard in Resources */,
 				4A4E57881D3607E800789FB8 /* MainVCSettings.json in Resources */,
 				4AB9235F1D3C671500C29A03 /* Me.storyboard in Resources */,
+				4A6038F51D46F4C500BF0258 /* OAuth.storyboard in Resources */,
 				4A9A646C1CDC209700BD9518 /* Assets.xcassets in Resources */,
 				4AB9235D1D3C670700C29A03 /* Search.storyboard in Resources */,
 				4AB9235B1D3C66E100C29A03 /* Message.storyboard in Resources */,
@@ -566,14 +596,20 @@
 				4A9029D41D4078070057C5DE /* UIButtonBarItem+Extension.swift in Sources */,
 				4A4E578B1D3617C500789FB8 /* NullViewController.swift in Sources */,
 				4A4E57501D35DDFC00789FB8 /* AppDelegate.swift in Sources */,
+				4A8221B31D470A7B00DC28D7 /* NetWorkTools.swift in Sources */,
+				4A8221B71D47294900DC28D7 /* String+Extension.swift in Sources */,
+				4A8221B51D471C9300DC28D7 /* UserAccount.swift in Sources */,
+				4A6038F71D46F4D800BF0258 /* OAuthViewController.swift in Sources */,
 				4A9029DB1D40B2D10057C5DE /* popView.swift in Sources */,
 				4A4E578D1D3637CF00789FB8 /* UIButton+Extension.swift in Sources */,
+				4A21C6E91D46145D00848B32 /* QRcreateViewController.swift in Sources */,
 				4A4E57511D35DDFC00789FB8 /* FoundController.swift in Sources */,
 				4A4E574F1D35DDFC00789FB8 /* NewfeaturesController.swift in Sources */,
 				4A9029D61D40A6890057C5DE /* TitleButton.swift in Sources */,
 				4A4E574C1D35DDFC00789FB8 /* MainTabBarController.swift in Sources */,
 				4A4E574D1D35DDFC00789FB8 /* MeController.swift in Sources */,
 				4A4E57481D35DDFC00789FB8 /* HomeController.swift in Sources */,
+				4A8221B11D46FE4D00DC28D7 /* comment.swift in Sources */,
 				4A4E574A1D35DDFC00789FB8 /* UserLoginInfoController.swift in Sources */,
 				4AB923701D3C76ED00C29A03 /* VisitorViewController.swift in Sources */,
 				4A1152361D41F383000C84DF /* QRcodeViewController.swift in Sources */,

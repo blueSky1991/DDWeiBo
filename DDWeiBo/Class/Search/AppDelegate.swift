@@ -19,6 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().tintColor = UIColor.orangeColor()
         UITabBar.appearance().tintColor = UIColor.orangeColor()
         
+        DDLog(UserAccount.loadUserAccount())
+        
+        
         return true
     }
 
